@@ -14,6 +14,6 @@ public class math {
         double eldu = (a-b)/(2*j);
         double globaldx = eldx*(Math.cos(eldu)-Math.sin(eldu));
         double globaldy = eldy*(Math.sin(eldu)+Math.cos(eldu));
-   ё     return new Field( globaldx, globaldy);
+        return new Field( globaldx, globaldy);
     }
 }
